@@ -1,0 +1,428 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+/* Header/Nav */
+img {
+  height: 40px;
+  width: auto;
+  margin-right: 144px;
+}
+
+.headerParagraph i {
+  color: #66768a;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+header {
+  clear: both;
+  height: 400px;
+  width: 100%;
+  color: white;
+  background-color: #66768a;
+}
+
+header nav li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  padding: 3px;
+  color: white;
+}
+
+.navLink i {
+  display: none;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3.5em;
+}
+
+h4 {
+  margin: 0;
+}
+
+nav ul {
+  float: left;
+  margin: 23px;
+}
+
+.rightNav {
+  text-align: right;
+}
+
+.rightNav li {
+  border: white;
+  background-color: white;
+  color: #66768a;
+  margin-right: 32px;
+}
+
+header section a {
+  color: white;
+}
+
+.headerPara {
+  color: white;
+  font-size: 1em;
+  width: 57%;
+  height: 74px;
+  margin-left: 20%;
+}
+
+.topSec {
+  width: 100%;
+  height: 223px;
+}
+
+.topSecPara {
+  font-size: 1em;
+  width: 40%;
+  height: 74px;
+  margin-left: 28%;
+}
+
+h4 {
+  margin: 0;
+}
+
+/* Blue Box Sec */
+.boxTwinsSec {
+  background-color: #dbdfe2;
+  width: 100%;
+}
+
+.boxTwinsText h4 {
+  margin-top: 0;
+}
+
+.boxTwinsText a {
+  background-color: #dbdfe2;
+  color: #161f29;
+  text-decoration: none;
+  border: 2px solid black;
+}
+
+.boxTwinsSQ a {
+  border: 2px solid black;
+  text-decoration: none;
+  color: black;
+}
+
+.boxTwinsSQ {
+  margin-left: 5%;
+}
+
+.boxTwinsSec div {
+  background-color: #66768a;
+  height: 115px;
+  width: 48%;
+  margin: 34px -2px 16px 29%;
+}
+
+.boxTwinsSec>section {
+  width: 43%;
+  padding: 0px 0 15px 0;
+  float: left;
+}
+
+.boxTwinsText {
+  width: 50%;
+  font: .5em;
+  text-decoration: none;
+  color: black;
+  float: left;
+}
+
+/* Last Section */
+.lastSec {
+  width: 100%;
+  height: 355px;
+}
+
+.lastSec section a {
+  font-size: 1.5em;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  border: 2px solid black;
+  float: left;
+  margin: 36px 0 0 40%;
+}
+
+.lastSec>section {
+  margin-top: 139px;
+}
+
+.lastSec>p {
+  font-size: 1em;
+  width: 40%;
+  height: 74px;
+  margin-left: 28%;
+}
+
+/* Footer */
+footer {
+  height: 300px;
+  width: 100%;
+  background-color: #161f29;
+  color: white;
+}
+
+footer>section {
+  float: left;
+  margin: 0;
+  text-align: left;
+}
+
+.contacts ul li i {
+  color: white;
+  display: inline-block;
+  float: left;
+  padding: 2px;
+}
+
+.contacts {
+  width: 50%;
+}
+
+.rightFoot {
+  width: 50%;
+  text-align: right;
+}
+
+.blue {
+  color: #586779;
+  display: block;
+  margin: 10px 89% 0 5%;
+}
+
+footer>section ul li {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  display: block;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* Mobile  */
+@media only screen and (max-width:767px) {
+  header {
+    height: 407px;
+  }
+
+  img {
+    display: none;
+  }
+
+  .navLink i {
+    display: inline-block;
+    margin-right: 75%;
+  }
+
+  nav ul li {
+    display: none;
+  }
+
+  .rightNav {
+    text-align: right;
+  }
+
+  .headerParagraph section {
+    margin-top: 6px;
+    width: 94%;
+    height: 97px;
+  }
+
+  .headerPara {
+    color: white;
+    font-size: 1em;
+    width: 57%;
+    height: 192px;
+    margin: 0 20%;
+  }
+
+  .topSec {
+    display: none;
+  }
+
+  .boxTwinsSec>section {
+    width: 100%;
+    float: none;
+    margin-top: 72px;
+  }
+
+  .twinBoxSecSQ {
+    margin-bottom: 0;
+  }
+
+  .boxTwinsSec div {
+    width: 54%;
+    margin: auto;
+    margin-top: -24px;
+  }
+
+  .boxTwinsSec {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .boxTwinsSec a {
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+  }
+
+  .lastSec {
+    width: 100%;
+    height: 212px;
+    margin-left: 10%;
+  }
+
+  .lastSec section a {
+    font-size: 1.5em;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    border: 2px solid black;
+    float: left;
+    margin: 14px 0px 0 32%;
+  }
+
+  .lastSec>p {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    margin: -7px 0 0 0;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin: 12px 0 0 -16%;
+  }
+
+  .midSec h2 p {
+    width: 87%;
+    margin: auto;
+  }
+
+  .lastSec>section {
+    margin-top: 59px;
+  }
+
+  section.rightText {
+    margin-top: 4px;
+    margin: 0;
+  }
+
+  .blue+span {
+    margin-left: 4%
+  }
+
+  footer {
+    height: 479px;
+  }
+
+  .rightFoot, +p {
+    padding: 0;
+    float: right;
+  }
+
+  footer {
+    display: none;
+  }
+
+  /* Ipad */
+  @media (min-width:768px) and (max-width:1024px) {
+    img {
+      display: none;
+    }
+
+    .header nav li {
+      display: none;
+    }
+
+    nav {
+      display: none;
+    }
+
+    nav>ul {
+      display: none;
+    }
+
+    .lastSecHead {
+      margin: 0;
+    }
+
+    .rightNav li {
+      text-align: right;
+      border: white;
+      background-color: white;
+      color: #66768a;
+    }
+
+    .boxTwinsSec>section {
+      height: 207px;
+      width: 34%;
+      float: left;
+      background-color: #66768a;
+      margin-top: 57px;
+      margin: 56px;
+    }
+
+    .boxTwinsSec div {
+      margin: 0px 0px 16px 90px;
+    }
+
+    .boxTwinsSec {
+      width: 100%;
+      height: 399px
+    }
+
+    .boxTwinsSec a {
+      border: 2px solid black;
+      text-decoration: none;
+      color: black;
+    }
+
+    .boxTwinsText h4 {
+      margin-top: 222px;
+    }
+
+    .boxTwinsPara {
+      display: none;
+    }
+
+    footer {
+      height: 479px;
+      width: 100%;
+    }
+  }
